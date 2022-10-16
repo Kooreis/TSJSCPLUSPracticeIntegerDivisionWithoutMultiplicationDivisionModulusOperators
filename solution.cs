@@ -1,5 +1,4 @@
-function integerDivision(dividend, divisor) {
-    if (divisor === 0) {
-        return 'Error: Division by zero is not allowed.';
-    }
-}
+let sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
+
+    dividend = Math.abs(dividend);
+    divisor = Math.abs(divisor);
